@@ -131,3 +131,99 @@ body{
 }
 
 /* Aqui termina o index.html */
+
+.login{
+    background-image: url(../assets/imgs/bg-jelly-fish-para_outras_pags.png);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+.login .container{
+    height: 550px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login{
+height: 250px;
+width: 500px;
+background-color: #dcdcdc;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+border-radius: 7px;
+}
+
+.card-login h2{
+    color: #ed145c93;
+    padding-top: 5px;
+}
+
+.campo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 10px;
+    font-size: small;
+}
+
+.campo span{
+    color: #ed145c93;
+    font-weight: bold;
+    color: ;
+}
+
+.campo input{
+    border: 2px solid #32b9cd;
+    border-radius: 5px;
+    height: 30px;
+    width: 400px;
+}
+
+.campo input::placeholder{
+    text-align: center;
+}
+
+
+.botao{
+    background-color: #ed145b;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 25px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+}
+
+.formulario{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-cadastro{
+height: 410px;
+width: 500px;
+background-color: #dcdcdc;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+border-radius: 7px;
+}
+
+.card-cadastro h2{
+    color: #ed145c93;
+    padding-top: 5px;
+}
+
